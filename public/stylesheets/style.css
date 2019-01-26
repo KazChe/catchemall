@@ -1,0 +1,28 @@
+body {
+  padding: 25px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+input {
+  margin-right: 10px;
+}
+
+#searchResult {
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+#errorMessage {
+  margin-top: 10px;
+  margin-left: 50px;
+  color: red;
+}
+
+#enText {
+  width: 200px;
+}

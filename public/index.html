@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catch‘em All</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="javascripts/indexHandler.js"></script>
+</head>
+<body>
+<div class="row">
+    <div class="col-xs-2">
+      <div class="input-group">
+            <input type="text" class="form-control" id="searchField" placeholder="Pokemon name or id">
+            <span class="input-group-btn">
+              <button class="btn btn-primary" id="searchButton" type="button">Search</button>
+           </span>
+      </div><!-- /input-group -->
+    </div><!-- /.row -->
+    <div class="col-xs-2"></div>
+    <div class="col-xs-2">
+        <div id="errorMessage"></div>
+    </div><!-- /.row -->
+
+</div>
+
+<div id="searchResult">
+<table class="table table-hover" id="resultTable">
+    <tbody>
+    <tr>
+        <th scope="row">Image</th>
+        <td id="thumbnail"><img src=""></td>
+    </tr>
+    <tr>
+        <th scope="row">ID</th>
+        <td id="pokeID"></td>
+    </tr>
+    <tr>
+        <th scope="row">Name</th>
+        <td id="name"></td>
+    </tr>
+    <tr>
+        <th scope="row">Species</th>
+        <td id="speciesName" colspan="2"></td>
+    </tr>
+    <tr>
+        <th scope="row">Height</th>
+        <td id="height" colspan="2"></td>
+    </tr>
+    <tr>
+        <th scope="row">Weight</th>
+        <td id="weight" colspan="2"></td>
+    </tr>
+    <tr>
+        <th scope="row">Types</th>
+        <td id="types" colspan="2"></td>
+    </tr>
+    <tr>
+        <th scope="row">Habitat</th>
+        <td id="habitat" colspan="2"></td>
+    </tr
+    <tr>
+        <th scope="row">Text</th>
+        <td id="enText" colspan="2"></td>
+    </tr>
+    </tbody>
+</table>
+</div>
+
+</body>
+</html>
